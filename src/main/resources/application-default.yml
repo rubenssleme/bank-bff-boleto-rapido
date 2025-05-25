@@ -1,0 +1,10 @@
+## Em ambiente de desenvolvimento local, utilize este arquivo caso necessário para sobrescrever valores do arquivo application.yml
+
+info:
+  app:
+    name: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'
+user:
+  timezone: ${TIMEZONE:America/Sao_Paulo}
+

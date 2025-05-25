@@ -1,0 +1,211 @@
+openapi: 3.0.3
+info:
+  title: Boleto Rápido - Depósito por Boleto
+  description: Este BFF (capd-bff-boleto-rapido) tem por objetivo gerar os boletos de cobrança, onde o cliente faz o depósito em sua própria conta. Desta forma facilitamos o dia a dia do cliente, pois este pode gerar facilmente boletos para depósito, onde outras pessoas podem realizar pagamentos.
+  contact:
+    name: Juliana Pastor de Jesus
+    email: juliana.p.pastor@bank.com.br
+  version: 1.0.0
+externalDocs:
+  description: bankde Documentation
+  url: https://confluence.bank.com.br:8443/pages/viewpage.action?pageId=244976149
+tags:
+  - name: infra
+    description: cloud
+  - name: tipo-api
+    description: interna
+  - name: asset
+    description: plataforma-digital-pj
+paths:
+  /gerar-boleto/me:
+    post:
+      tags:
+        - CriarBoleto
+      summary: Retorna o boleto criado para realizar o depósito na conta do cliente logado na plataforma.
+      operationId: createBankSlips
+      security:
+        - cookieAuth: []
+      parameters:
+        - name: X-Brad-Conta
+          in: header
+          description: Header de conta
+          required: true
+          schema:
+            type: string
+        - name: X-Brad-Cliente
+          in: header
+          description: Header de cliente
+          required: true
+          schema:
+            type: string
+        - name: X-Brad-Geolocalizacao
+          in: header
+          description: Header da geolocalização do dispositivo do cliente
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: Token de autorização JWT
+          required: true
+          schema:
+            type: string
+
+      requestBody:
+        description: "Dados do request de entrada para gerar o boleto de cobrança"
+        required: true
+        content:
+            application/json:
+              schema:
+                $ref:  '#/components/schemas/BoletoRapidoRequest'
+
+      responses:
+        '201':
+          description: Agendamentos de boleto bancários retornados com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BoletoRapidoResponse'
+        '400':
+          description: Erro durante a solicitação para gerar o Boleto
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '400'
+                    mensagem: Erro de validação
+                    detalhes: ''
+        '401':
+          description: Não foi possível realizar o processo de autenticação
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '401'
+                    mensagem: Não autorizado
+                    detalhes: Token de acesso inválido ou expirado
+        '403':
+          description: Não existem permissões para realizar esta operação
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '403'
+                    mensagem: Proibido
+                    detalhes: O usuário não tem permissões suficientes para realizar essa operação
+        '412':
+          description: Precisa ajustar
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '412'
+                    mensagem: Proibido
+                    detalhes:  Precisa ajustar
+        '422':
+          description:  Precisa ajustar
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '422'
+                    mensagem:  Precisa ajustar
+                    detalhes:  Precisa ajustar
+
+        '429':
+          description: Muitas Solicitações
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '429'
+                    mensagem: Muitas solicitações
+                    detalhes: Limite de taxa de solicitação excedido
+        '500':
+          description: Erro Interno do Servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '500'
+                    mensagem: Erro interno do servidor
+                    detalhes: Um erro inesperado ocorreu no servidor
+        '503':
+          description: Serviço Indisponível
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                erros:
+                  - codigo: '500'
+                    mensagem: Serviço Indisponível
+                    detalhes: O serviço está temporariamente indisponível
+
+components:
+  schemas:
+    BoletoRapidoRequest:
+      type: object
+      properties:
+        valorNominalTitulo:
+          type: string
+          description: 'Este valor refere-se ao valor que será depositado. Nome do atributo no srv vlNominalTitulo.'
+          example: 10,00
+        dispositivo:
+          type: string
+          description: 'Este campo refere-se ao tipo de dispositivo que está cahamdo o bff'
+          enum:
+           - WEB
+           - MOBILE
+          example: 'MOBILE'
+    BoletoRapidoResponse:
+      type: object
+      properties:
+        idProduto:
+          type: string
+          description: "Precisamos retornar todos os dados referentes ao boleto gerado."
+    Error:
+      type: object
+      properties:
+        errors:
+          type: array
+          description: Lista de erros
+          items:
+            $ref: '#/components/schemas/ErrorDetail'
+      description: Modelo que representa um erro na resposta da API
+    ErrorDetail:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Código do erro HTTP
+          example: '500'
+        message:
+          type: string
+          description: Mensagem de erro resumida
+          example: Erro interno do servidor
+        details:
+          type: string
+          description: Detalhes do erro
+          example: Um erro inesperado ocorreu no servidor
+      description: Detalhes dos erros listados.
+
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: SESSIONID
