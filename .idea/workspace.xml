@@ -91,6 +91,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/banner.txt" beforeDir="false" />
     </list>
+    <list default="true" id="858c65e6-d6bd-4c29-add1-a5551522b1ab" name="Changes" comment="feat:(add initial project structure with configuration files and error handling classes)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,12 +110,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;rubenssleme&quot;
-  }
-}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -140,25 +135,6 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rubenssleme/bank-bff-boleto-rapido.git&quot;,
-    &quot;accountId&quot;: &quot;e1b5128f-c26d-4dc9-9e2c-b95375d8d162&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;rubenssleme&quot;,
-    &quot;repository&quot;: &quot;bank-bff-boleto-rapido&quot;
-  }
-}</component>
-  <component name="HttpClientEndpointsTabState">
-    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;c97144b2283fb78f04bfb97f51f76e7ad54909c6&quot; value=&quot;###&amp;#10;POST http://localhost/gerar-boleto/me&amp;#10;Content-Type: application/json&amp;#10;&amp;#10;{&amp;#10;  &amp;quot;valorNominalTitulo&amp;quot;: &amp;quot;&amp;quot;,&amp;#10;  &amp;quot;dispositivo&amp;quot;: &amp;quot;&amp;quot;&amp;#10;}&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -174,16 +150,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP Request.bank_bff_boleto_rapido-endpoints | #1.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -194,9 +164,6 @@
   }
 }</component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="bank_bff_boleto_rapido-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/bank_bff_boleto_rapido-endpoints.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="capd-bff-boleto-rapido" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.bank.capd.bff.rapid.payment.Application" />
@@ -204,15 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="HTTP Request.bank_bff_boleto_rapido-endpoints | #1" />
-      <item itemvalue="Spring Boot.Application (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.bank_bff_boleto_rapido-endpoints | #1" />
-      </list>
-    </recent_temporary>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="capd-bff-boleto-rapido" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.bradesco.capd.bff.rapid.payment.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -230,26 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748171992214</updated>
       <workItem from="1748171999961" duration="1313000" />
-      <workItem from="1748173531810" duration="756000" />
-      <workItem from="1748174967304" duration="762000" />
     </task>
-    <task id="LOCAL-00001" summary="feat:(add initial project structure with configuration files and error handling classes)">
-      <option name="closed" value="true" />
-      <created>1748173910632</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748173910632</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat:(add initial project structure with configuration files and error handling classes)">
-      <option name="closed" value="true" />
-      <created>1748173925915</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748173925915</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
