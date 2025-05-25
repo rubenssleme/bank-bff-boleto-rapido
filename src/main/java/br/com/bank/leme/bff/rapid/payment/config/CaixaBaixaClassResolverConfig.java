@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.config;
+package br.com.bank.leme.bff.rapid.payment.config;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.jsontype.impl.TypeIdResolverBase;

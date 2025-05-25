@@ -1,8 +1,8 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.monitoring;
+package br.com.bank.leme.bff.rapid.payment.adapter.monitoring;
 
-import br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfig;
-import br.com.bank.capd.bff.rapid.payment.adapter.monitoring.entity.HealthCheckServDepend;
-import br.com.bank.capd.bff.rapid.payment.adapter.monitoring.entity.HealthCheckServDependGeral;
+import br.com.bank.leme.bff.rapid.payment.config.HealthCheckEndpointConfig;
+import br.com.bank.leme.bff.rapid.payment.adapter.monitoring.entity.HealthCheckServDepend;
+import br.com.bank.leme.bff.rapid.payment.adapter.monitoring.entity.HealthCheckServDependGeral;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.exception.handler;
+package br.com.bank.leme.bff.rapid.payment.adapter.exception.handler;
 
-import br.com.bank.capd.bff.rapid.payment.domain.exception.ServiceUnavailableException;
+import br.com.bank.leme.bff.rapid.payment.domain.exception.ServiceUnavailableException;
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.web.client.ResponseErrorHandler;
 import org.springframework.web.client.UnknownHttpStatusCodeException;

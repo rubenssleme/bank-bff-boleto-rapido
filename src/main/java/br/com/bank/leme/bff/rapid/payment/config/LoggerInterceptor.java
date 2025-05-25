@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.config;
+package br.com.bank.leme.bff.rapid.payment.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

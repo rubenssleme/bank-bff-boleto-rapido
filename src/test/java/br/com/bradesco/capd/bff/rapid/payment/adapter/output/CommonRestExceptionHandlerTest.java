@@ -1,8 +1,8 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.output;
+package br.com.bank.leme.bff.rapid.payment.adapter.output;
 
-import br.com.bank.capd.bff.rapid.payment.adapter.exception.handler.RestExceptionHandler;
-import br.com.bank.capd.bff.rapid.payment.adapter.exception.infrastructure.InfrastructureException;
-import br.com.bank.capd.bff.rapid.payment.domain.exception.BusinessException;
+import br.com.bank.leme.bff.rapid.payment.adapter.exception.handler.RestExceptionHandler;
+import br.com.bank.leme.bff.rapid.payment.adapter.exception.infrastructure.InfrastructureException;
+import br.com.bank.leme.bff.rapid.payment.domain.exception.BusinessException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

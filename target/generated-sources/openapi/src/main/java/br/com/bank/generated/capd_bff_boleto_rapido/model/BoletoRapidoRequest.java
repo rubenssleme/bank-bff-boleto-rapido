@@ -1,4 +1,4 @@
-package br.com.bank.generated.capd_bff_boleto_rapido.model;
+package br.com.bank.generated.leme_bff_boleto_rapido.model;
 
 import java.net.URI;
 import java.util.Objects;
@@ -19,7 +19,7 @@ import jakarta.annotation.Generated;
  * BoletoRapidoRequest
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-05-25T08:46:35.092326173-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-05-25T09:41:21.025334900-03:00[America/Sao_Paulo]")
 public class BoletoRapidoRequest {
 
   private String valorNominalTitulo;

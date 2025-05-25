@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.input.boleto;
+package br.com.bank.leme.bff.rapid.payment.adapter.input.boleto;
 
 
 import org.springframework.validation.annotation.Validated;

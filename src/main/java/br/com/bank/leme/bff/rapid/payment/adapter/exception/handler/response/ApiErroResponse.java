@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.exception.handler.response;
+package br.com.bank.leme.bff.rapid.payment.adapter.exception.handler.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

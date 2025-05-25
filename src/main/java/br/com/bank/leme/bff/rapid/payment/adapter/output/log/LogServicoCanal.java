@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.output.log;
+package br.com.bank.leme.bff.rapid.payment.adapter.output.log;
 
 //import br.com.bank.enge.logcloud.canal.SrvCanalLogger;
 

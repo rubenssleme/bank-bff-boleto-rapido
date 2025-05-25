@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.monitoring;
+package br.com.bank.leme.bff.rapid.payment.adapter.monitoring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.exception.handler;
+package br.com.bank.leme.bff.rapid.payment.adapter.exception.handler;
 
-import br.com.bank.capd.bff.rapid.payment.adapter.exception.handler.response.ApiErroResponse;
+import br.com.bank.leme.bff.rapid.payment.adapter.exception.handler.response.ApiErroResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;

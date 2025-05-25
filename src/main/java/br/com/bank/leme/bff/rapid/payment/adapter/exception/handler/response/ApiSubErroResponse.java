@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.exception.handler.response;
+package br.com.bank.leme.bff.rapid.payment.adapter.exception.handler.response;
 
 /**
  * Classe base para criar erros diversos

@@ -1,6 +1,6 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.monitoring;
+package br.com.bank.leme.bff.rapid.payment.adapter.monitoring;
 
-import br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfig;
+import br.com.bank.leme.bff.rapid.payment.config.HealthCheckEndpointConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

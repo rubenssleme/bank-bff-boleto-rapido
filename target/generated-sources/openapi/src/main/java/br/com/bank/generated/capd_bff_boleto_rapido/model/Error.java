@@ -1,8 +1,8 @@
-package br.com.bank.generated.capd_bff_boleto_rapido.model;
+package br.com.bank.generated.leme_bff_boleto_rapido.model;
 
 import java.net.URI;
 import java.util.Objects;
-import br.com.bank.generated.capd_bff_boleto_rapido.model.ErrorDetail;
+import br.com.bank.generated.leme_bff_boleto_rapido.model.ErrorDetail;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ import jakarta.annotation.Generated;
  */
 
 @Schema(name = "Error", description = "Modelo que representa um erro na resposta da API")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-05-25T08:46:35.092326173-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-05-25T09:41:21.025334900-03:00[America/Sao_Paulo]")
 public class Error {
 
   @Valid

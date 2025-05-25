@@ -1,8 +1,8 @@
-package br.com.bank.capd.bff.rapid.payment.config;
+package br.com.bank.leme.bff.rapid.payment.config;
 
 //import br.com.bank.enge.logcloud.api.SrvCanalLoggerFactory;
 //import br.com.bank.enge.logcloud.canal.SrvCanalLogger;
-import br.com.bank.capd.bff.rapid.payment.adapter.output.log.LogServicoCanal;
+import br.com.bank.leme.bff.rapid.payment.adapter.output.log.LogServicoCanal;
 import org.springframework.boot.convert.ApplicationConversionService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

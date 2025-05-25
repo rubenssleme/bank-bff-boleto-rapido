@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.exception.infrastructure;
+package br.com.bank.leme.bff.rapid.payment.adapter.exception.infrastructure;
 
 public class InfrastructureException extends RuntimeException {
 

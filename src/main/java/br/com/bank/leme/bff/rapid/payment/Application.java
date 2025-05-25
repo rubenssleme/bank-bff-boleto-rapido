@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment;
+package br.com.bank.leme.bff.rapid.payment;
 
 //import br.com.bank.enge.logcloud.spring.EnableLogCloud;
 import org.slf4j.Logger;

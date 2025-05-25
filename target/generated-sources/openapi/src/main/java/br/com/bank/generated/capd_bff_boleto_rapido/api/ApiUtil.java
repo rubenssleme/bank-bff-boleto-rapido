@@ -1,4 +1,4 @@
-package br.com.bank.generated.capd_bff_boleto_rapido.api;
+package br.com.bank.generated.leme_bff_boleto_rapido.api;
 
 import org.springframework.web.context.request.NativeWebRequest;
 

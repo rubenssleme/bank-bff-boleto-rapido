@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.config;
+package br.com.bank.leme.bff.rapid.payment.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;

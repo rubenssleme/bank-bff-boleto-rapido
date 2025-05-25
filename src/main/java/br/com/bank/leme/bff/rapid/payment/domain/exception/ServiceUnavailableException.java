@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.domain.exception;
+package br.com.bank.leme.bff.rapid.payment.domain.exception;
 
 public class ServiceUnavailableException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.config;
+package br.com.bank.leme.bff.rapid.payment.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;

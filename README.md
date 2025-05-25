@@ -1,9 +1,9 @@
-# bank-core/capd-bff-boleto-rapido :rocket:
+# bank-core/leme-bff-boleto-rapido :rocket:
 
-[![Quality Gate Status](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=capd-bff-boleto-rapido&metric=alert_status)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/dashboard?branch=develop&id=br.com.bank.bank-core.capd-bff-boleto-rapido)
-[![Bugs](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=capd-bff-boleto-rapido&metric=bugs)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/project/issues?branch=develop&resolved=false&types=BUG&inNewCodePeriod=true&id=br.com.bank.bank-core.capd-boleto-rapido)
-[![Code Smells](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=capd-fed-boleto-rapido&metric=code_smells)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/project/issues?branch=develop&resolved=false&types=CODE_SMELL&inNewCodePeriod=true&id=br.com.bank.bank-core.capd-boleto-rapido)
-[![Coverage](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=capd-fed-boleto-rapido&metric=coverage)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/component_measures?id=br.com.bank.bank-core.capd-bff-boleto-rapido&metric=new_coverage&branch=develop&view=list)
+[![Quality Gate Status](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=leme-bff-boleto-rapido&metric=alert_status)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/dashboard?branch=develop&id=br.com.bank.bank-core.leme-bff-boleto-rapido)
+[![Bugs](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=leme-bff-boleto-rapido&metric=bugs)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/project/issues?branch=develop&resolved=false&types=BUG&inNewCodePeriod=true&id=br.com.bank.bank-core.leme-boleto-rapido)
+[![Code Smells](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=leme-fed-boleto-rapido&metric=code_smells)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/project/issues?branch=develop&resolved=false&types=CODE_SMELL&inNewCodePeriod=true&id=br.com.bank.bank-core.leme-boleto-rapido)
+[![Coverage](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/api/project_badges/measure?project=leme-fed-boleto-rapido&metric=coverage)](https://sonarqube.bank.com.br:8443/sonarqubeenterprise/component_measures?id=br.com.bank.bank-core.leme-bff-boleto-rapido&metric=new_coverage&branch=develop&view=list)
 <br /><br />
 
 ![Java](https://img.shields.io/badge/Java-17-green?style=plastic&logo=java)
@@ -29,7 +29,7 @@
 <a name="principaisCaracteristicasResponsabilidade"></a>
 
 # #Introdução
-Este documento tem como objetivo principal auxiliar um desenvolvedor a entender como funciona o projeto do *capd-bff-boleto-rapido*, onde conseguir informações sobre esse projeto, como fazer para preparar seu ambiente, como realizar testes locais, onde fazer as solicitações de acesso e quais são os outros projetos da equipe.
+Este documento tem como objetivo principal auxiliar um desenvolvedor a entender como funciona o projeto do *leme-bff-boleto-rapido*, onde conseguir informações sobre esse projeto, como fazer para preparar seu ambiente, como realizar testes locais, onde fazer as solicitações de acesso e quais são os outros projetos da equipe.
 
 ## #Descrição do projeto
 Essa jornada Possibilitar que o usuário do PDPJ possa emitir um boleto de aporte, sendo o beneficiário final o próprio emissor, para que ele possa depositar dinheiro em espécie na sua conta PJ.
@@ -129,7 +129,7 @@ Em relação a configuração do *settings* na pasta .m2, usar esse conteudo par
 ```
 Lembrando que é necessario alteração da senha sempre que ela for alterada no GIDE.
 
-Após configurar todos os documento e ter clonado o [projeto](https://github.com/bank-Core/capd-bff-agendamento-pagamento), ir na pasta dele e rodar dentro dessa pasta os seguintes comandos, para instalação das dependências do projeto:
+Após configurar todos os documento e ter clonado o [projeto](https://github.com/bank-Core/leme-bff-agendamento-pagamento), ir na pasta dele e rodar dentro dessa pasta os seguintes comandos, para instalação das dependências do projeto:
 ```bash
 mvn clean install
 
@@ -169,7 +169,7 @@ https://sonarqube.bank.com.br:8443/sonarqubeenterprise/projects
  <img src=".github/imagensReadMe/intelliJSonar/Passo_1.png" alt="Texto Alternativo" width="300" height="200">
 </p>
 
-Após configurar, pedir para criar o token e aceita-lo. Após isso, voltar a tela inicial do *bind to SonarQube* e selecionar a nova conexão criada e colocar o código do projeto que estamos utilizando: `br.com.bank.bank-core.capd-bff-boleto-rapido`. Por fim, ir na aba *Report* e clicar no ícone da pasta com prompt de comando e clicar em *Proceed*.
+Após configurar, pedir para criar o token e aceita-lo. Após isso, voltar a tela inicial do *bind to SonarQube* e selecionar a nova conexão criada e colocar o código do projeto que estamos utilizando: `br.com.bank.bank-core.leme-bff-boleto-rapido`. Por fim, ir na aba *Report* e clicar no ícone da pasta com prompt de comando e clicar em *Proceed*.
 
 <p align="center">
  <img src=".github/imagensReadMe/intelliJSonar/Passo_10.png" alt="Texto Alternativo" width="300" height="200"><br />

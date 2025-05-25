@@ -1,4 +1,4 @@
-package br.com.bank.capd.bff.rapid.payment.adapter.monitoring.entity;
+package br.com.bank.leme.bff.rapid.payment.adapter.monitoring.entity;
 
 import org.springframework.boot.actuate.health.Health;
 

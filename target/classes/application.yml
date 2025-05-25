@@ -1,7 +1,7 @@
 # INICIO - CORE PROPERTIES
 info:
   app:
-    name: 'capd-bff-boleto-rapido'
+    name: 'leme-bff-boleto-rapido'
     description: 'Project for quick bill generation'
     version: '1.0.0-SNAPSHOT'
 user:

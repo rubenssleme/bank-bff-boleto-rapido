@@ -1,5 +1,5 @@
 src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/ApiUtil.java
-src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/CriarBoletoApi.java
+src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/GerarBoletoApi.java
 src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoRequest.java
 src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoResponse.java
 src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/Error.java
