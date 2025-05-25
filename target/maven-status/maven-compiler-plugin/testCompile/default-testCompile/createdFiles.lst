@@ -1,9 +1,0 @@
-br\com\bank\capd\bff\rapid\payment\adapter\output\RestTemplateResponseErrorHandlerTest.class
-br\com\bank\capd\bff\rapid\payment\config\HealthCheckEndpointConfigTest.class
-br\com\bank\capd\bff\rapid\payment\adapter\monitoring\HealthCheckControllerTest$CustomApplicationContext.class
-br\com\bank\capd\bff\rapid\payment\adapter\monitoring\HealthCheckControllerTest.class
-br\com\bank\capd\bff\rapid\payment\adapter\monitoring\ServicosDependHealthIndicatorTest.class
-br\com\bank\capd\bff\rapid\payment\adapter\output\BusinessExceptionHandlerTest.class
-br\com\bank\capd\bff\rapid\payment\adapter\output\CommonRestExceptionHandlerTest.class
-br\com\bank\capd\bff\rapid\payment\adapter\output\BusinessExceptionHandlerTest$RestProcessingExceptionThrowingController.class
-br\com\bank\capd\bff\rapid\payment\adapter\output\CommonRestExceptionHandlerTest$RestProcessingExceptionThrowingController.class
