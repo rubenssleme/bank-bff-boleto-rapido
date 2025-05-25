@@ -17,10 +17,10 @@ tags:
   - name: asset
     description: plataforma-digital-pj
 paths:
-  /gerar-boleto/me:
+  /emite-boleto/me:
     post:
       tags:
-        - CriarBoleto
+        - GerarBoleto
       summary: Retorna o boleto criado para realizar o depósito na conta do cliente logado na plataforma.
       operationId: createBankSlips
       security:
