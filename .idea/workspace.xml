@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="858c65e6-d6bd-4c29-add1-a5551522b1ab" name="Changes" comment="feat:(add initial project structure with configuration files and error handling classes)" />
+    <list default="true" id="858c65e6-d6bd-4c29-add1-a5551522b1ab" name="Changes" comment="feat:(add initial project structure with configuration files and error handling classes)">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/capd-bff-boleto-rapido.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/capd-bff-boleto-rapido.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/CriarBoletoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/CriarBoletoApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/ErrorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/ErrorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/banner.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,43 +98,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Unnamed.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application (1).executor": "Run",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ruben/projetos/bank-bff-boleto-rapido",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="br.com.bank.capd.bff.rapid.payment.Application" />
       <module name="capd-bff-boleto-rapido" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.bank.capd.bff.rapid.payment.Application" />
+      <option name="PROGRAM_PARAMETERS" value="-Dspring.profiles.active=local -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <module name="capd-bff-boleto-rapido" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.bradesco.capd.bff.rapid.payment.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
