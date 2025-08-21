@@ -1,6 +1,6 @@
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/adapter/monitoring/HealthCheckControllerTest.java
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/adapter/monitoring/ServicosDependHealthIndicatorTest.java
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/adapter/output/BusinessExceptionHandlerTest.java
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/adapter/output/CommonRestExceptionHandlerTest.java
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/adapter/output/RestTemplateResponseErrorHandlerTest.java
-/home/ruben/projetos/bank-bff-boleto-rapido/src/test/java/br/com/bradesco/capd/bff/rapid/payment/config/HealthCheckEndpointConfigTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\adapter\monitoring\HealthCheckControllerTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\adapter\monitoring\ServicosDependHealthIndicatorTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\adapter\output\BusinessExceptionHandlerTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\adapter\output\CommonRestExceptionHandlerTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\adapter\output\RestTemplateResponseErrorHandlerTest.java
+C:\Users\ruben\Desktop\Nova pasta (4)\bank-bff-boleto-rapido\src\test\java\br\com\bradesco\capd\bff\rapid\payment\config\HealthCheckEndpointConfigTest.java
