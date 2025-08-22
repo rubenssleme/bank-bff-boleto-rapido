@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-08-21T18:32:55.320254800-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-08-22T14:12:24.313237200-03:00[America/Sao_Paulo]")
 @Validated
 @Tag(name = "CriarBoleto", description = "the CriarBoleto API")
 public interface CriarBoletoApi {
