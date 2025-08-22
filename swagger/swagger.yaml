@@ -1,10 +1,10 @@
 openapi: 3.0.3
 info:
   title: Boleto Rápido - Depósito por Boleto
-  description: Este BFF (capd-bff-boleto-rapido) tem por objetivo gerar os boletos de cobrança, onde o cliente faz o depósito em sua própria conta. Desta forma facilitamos o dia a dia do cliente, pois este pode gerar facilmente boletos para depósito, onde outras pessoas podem realizar pagamentos.
+  description: Este BFF (rapd-bff-boleto-rapido) tem por objetivo gerar os boletos de cobrança, onde o cliente faz o depósito em sua própria conta. Desta forma facilitamos o dia a dia do cliente, pois este pode gerar facilmente boletos para depósito, onde outras pessoas podem realizar pagamentos.
   contact:
-    name: Juliana Pastor de Jesus
-    email: juliana.p.pastor@bank.com.br
+    name: Rubens Soares Leme
+    email: rubenss.leme@bank.com.br
   version: 1.0.0
 externalDocs:
   description: bankde Documentation

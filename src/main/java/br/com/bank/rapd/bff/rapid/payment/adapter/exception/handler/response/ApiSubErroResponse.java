@@ -1,0 +1,7 @@
+package br.com.bank.rapd.bff.rapid.payment.adapter.exception.handler.response;
+
+/**
+ * Classe base para criar erros diversos
+ */
+public interface ApiSubErroResponse {
+}

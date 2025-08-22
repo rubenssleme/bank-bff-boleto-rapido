@@ -5,7 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="858c65e6-d6bd-4c29-add1-a5551522b1ab" name="Changes" comment="Ajuste de teste">
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/config/CaixaBaixaClassResolverConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/config/CaixaBaixaClassResolverConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/BusinessExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/BusinessExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/RestTemplateResponseErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/RestTemplateResponseErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/response/ApiErroResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/response/ApiErroResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/response/ApiSubErroResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/response/ApiSubErroResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/response/ApiValidacaoErroResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/response/ApiValidacaoErroResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/handler/response/SubErroNegocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/handler/response/SubErroNegocio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/exception/infrastructure/InfrastructureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/exception/infrastructure/InfrastructureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/input/boleto/BoletoRapidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/input/boleto/BoletoRapidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/monitoring/ServicosDependHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/monitoring/ServicosDependHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/monitoring/entity/HealthCheckServDepend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/monitoring/entity/HealthCheckServDepend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/monitoring/entity/HealthCheckServDependGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/monitoring/entity/HealthCheckServDependGeral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/adapter/output/log/LogServicoCanal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/adapter/output/log/LogServicoCanal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/config/CaixaBaixaClassResolverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/config/CaixaBaixaClassResolverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/config/HealthCheckEndpointConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/config/HealthCheckEndpointConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/config/LoggerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/config/LoggerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/domain/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/domain/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/domain/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/domain/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/capd/bff/rapid/payment/domain/exception/ServiceUnavailableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/rapd/bff/rapid/payment/domain/exception/ServiceUnavailableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/adapter/monitoring/HealthCheckControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/adapter/monitoring/HealthCheckControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/adapter/monitoring/ServicosDependHealthIndicatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/adapter/monitoring/ServicosDependHealthIndicatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/adapter/output/BusinessExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/adapter/output/BusinessExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/adapter/output/CommonRestExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/adapter/output/CommonRestExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/adapter/output/RestTemplateResponseErrorHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/adapter/output/RestTemplateResponseErrorHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/config/CaixaBaixaClassResolverConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/config/CaixaBaixaClassResolverConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/bank/capd/bff/rapid/payment/config/HealthCheckEndpointConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/bank/rapd/bff/rapid/payment/config/HealthCheckEndpointConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/capd-bff-boleto-rapido.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-default.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/global.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/swagger.yaml-default.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/ApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/api/CriarBoletoApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/BoletoRapidoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/bank/generated/capd_bff_boleto_rapido/model/ErrorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.bank.capd.bff.rapid.payment/Application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.bank.capd.bff.rapid.payment/Application.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.bank.capd.bff.rapid.payment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.bank.capd.bff.rapid.payment/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.HealthCheckControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.monitoring.ServicosDependHealthIndicatorTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.BusinessExceptionHandlerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.CommonRestExceptionHandlerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.adapter.output.RestTemplateResponseErrorHandlerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.bank.capd.bff.rapid.payment.config.HealthCheckEndpointConfigTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/banner.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +206,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CaixaBaixaClassResolverConfigTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="br.com.bank.capd.bff.rapid.payment.Application" />
-      <module name="capd-bff-boleto-rapido" />
+      <option name="MAIN_CLASS_NAME" value="br.com.bank.rapd.bff.rapid.payment.Application" />
+      <module name="rapd-bff-boleto-rapido" />
       <option name="PROGRAM_PARAMETERS" value="-Dspring.profiles.active=local -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
       <method v="2">
@@ -126,13 +217,13 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="All in capd-bff-boleto-rapido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -140,7 +231,7 @@
       </method>
     </configuration>
     <configuration name="CaixaBaixaClassResolverConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.bank.capd.bff.rapid.payment.config.*" />
@@ -155,7 +246,7 @@
       </method>
     </configuration>
     <configuration name="CaixaBaixaClassResolverConfigTest.testGetConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.bank.capd.bff.rapid.payment.config.*" />
@@ -171,7 +262,7 @@
       </method>
     </configuration>
     <configuration name="java in capd-bff-boleto-rapido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <option name="TEST_OBJECT" value="directory" />
       <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
@@ -179,20 +270,39 @@
       </method>
     </configuration>
     <configuration name="payment in capd-bff-boleto-rapido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="capd-bff-boleto-rapido" />
+      <module name="rapd-bff-boleto-rapido" />
       <option name="TEST_OBJECT" value="directory" />
       <dir value="$PROJECT_DIR$/src/test/java/br/com/bradesco/capd/bff/rapid/payment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="rapd-bff-boleto-rapido" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="rapd-bff-boleto-rapido" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.All in capd-bff-boleto-rapido" />
+      <item itemvalue="JUnit.CaixaBaixaClassResolverConfigTest" />
+      <item itemvalue="JUnit.CaixaBaixaClassResolverConfigTest.testGetConfig" />
+      <item itemvalue="JUnit.java in capd-bff-boleto-rapido" />
+      <item itemvalue="JUnit.payment in capd-bff-boleto-rapido" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in capd-bff-boleto-rapido" />
+        <item itemvalue="JUnit.All in capd-bff-boleto-rapido" />
         <item itemvalue="JUnit.CaixaBaixaClassResolverConfigTest" />
         <item itemvalue="JUnit.CaixaBaixaClassResolverConfigTest.testGetConfig" />
-        <item itemvalue="JUnit.java in capd-bff-boleto-rapido" />
         <item itemvalue="JUnit.payment in capd-bff-boleto-rapido" />
-        <item itemvalue="JUnit.All in capd-bff-boleto-rapido" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +332,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755812805264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajuste de teste">
+      <option name="closed" value="true" />
+      <created>1755882759164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755882759164</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajuste de teste">
+      <option name="closed" value="true" />
+      <created>1755882833098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755882833098</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajuste de teste">
+      <option name="closed" value="true" />
+      <created>1755886870102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755886870102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

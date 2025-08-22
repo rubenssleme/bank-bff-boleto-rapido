@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>br.com.bank.capd.bff.rapid.payment</groupId>
-    <artifactId>capd-bff-boleto-rapido</artifactId>
+    <artifactId>rapd-bff-boleto-rapido</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>Project for quick bill generation</description>
