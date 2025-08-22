@@ -19,7 +19,7 @@ import jakarta.annotation.Generated;
  * BoletoRapidoRequest
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-08-22T14:12:24.313237200-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-08-22T14:13:09.803280500-03:00[America/Sao_Paulo]")
 public class BoletoRapidoRequest {
 
   private String valorNominalTitulo;
